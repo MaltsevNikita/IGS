@@ -87,11 +87,6 @@ body {
   background-color: #fff;
 }
 
-.horizontal-swiper {
-  width: 600px;
-  height: 300px;
-}
-
 .everyWeek {
   padding-bottom: 10px;
 }
@@ -108,7 +103,7 @@ body {
 }
 
 .family {
-  padding-top: 30vh;
+  padding-top: 20vh;
 }
 .family__title {
   font-family: "Roboto Flex";
@@ -130,6 +125,7 @@ body {
 .save {
   display: flex;
   justify-content: space-evenly;
+  padding-top: 20vh;
 }
 
 .club {
@@ -162,7 +158,32 @@ body {
 
 .costs-div {
   display: grid;
+  max-width: 50vw;
+  color: #000;
+  padding: 24px;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   background-color: #fff;
   border-radius: 30px;
   align-items: center;
+}
+.costs-div__item {
+  padding-bottom: 10px;
+}
+.costs-div__item_red {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: red;
+}
+.costs-div__item_semibold {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+}
+.costs-div__item-last {
+  border-top: 1px solid green;
+  padding-top: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
