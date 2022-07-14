@@ -19,12 +19,13 @@ body {
 }
 
 .swiper, .swiper2 {
-  width: 80vw;
-  height: 60vh;
+  max-width: 80vw;
+  height: 100vh;
 }
 
 .swiper-slide {
-  height: 100vh;
+  height: 100vw;
+  margin-top: 20px;
 }
 
 .swiper-pagination {
@@ -44,7 +45,7 @@ body {
   font-size: 16px;
   line-height: 140%;
   text-align: center;
-  margin-top: 5vh;
+  margin-top: 2vh;
 }
 
 .sides {
@@ -87,9 +88,6 @@ body {
   background-color: #fff;
 }
 
-.everyWeek {
-  padding-bottom: 10px;
-}
 .everyWeek__title {
   padding-top: 40px;
   padding-bottom: 24px;
@@ -97,13 +95,17 @@ body {
 .everyWeek__marker {
   color: #F2CF17;
 }
+.everyWeek__slider {
+  border: 3px solid red;
+  color: #fff;
+}
 .everyWeek .internal-slider {
   width: 600px;
   height: 300px;
 }
 
 .family {
-  padding-top: 20vh;
+  padding-top: 10vh;
 }
 .family__title {
   font-family: "Roboto Flex";
@@ -186,4 +188,38 @@ body {
   padding-top: 24px;
   font-weight: 900;
   text-transform: uppercase;
+}
+
+.example__image {
+  padding-bottom: 40px;
+}
+.example__text {
+  display: flex;
+  flex-direction: column;
+  border-right: #fff 3px solid;
+  max-width: 20%;
+}
+.example__price {
+  font-weight: 800;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.example__description {
+  margin: 0;
+  font-weight: 400;
+}
+
+.what-else__title {
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.from-developer {
+  display: flex;
+}
+.from-developer__title {
+  font-weight: 700 font-size 36px line-height 42.19px;
+}
+.from-developer__app {
+  color: #F2CF17;
 }
