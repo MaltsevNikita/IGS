@@ -31,7 +31,7 @@
       </div>
       <!-- /.header -->
       <div class="body">
-          <div class="swiper">
+          <div class="swiper-container swiper">
             <div class="swiper-wrapper">
               <!-- ==========swiper slide1===== -->
               <div class="swiper-slide">
@@ -78,12 +78,23 @@
                   <p class="everyWeek__subtitle">
                     Будьте в тренде, найдите проект дома в каталоге всех стран
                   </p>
-                  
-                </div>
-                <div class="everyWeek__slider">
-                  <!-- =====доделать слайдер===== -->
-                    <span"> Слайдер </span>
+                    <div class="everyWeek-slider swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="everyWeek-slider__slide swiper-slide">Slide 1</div>
+                      <div class="everyWeek-slider__slide swiper-slide">Slide 2</div>
+                      <div class="everyWeek-slider__slide swiper-slide">Slide 3</div>
+                       </div>
+                    
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="everyWeekSlider-button-prev swiper-button-prev"></div>
+                    <div class="everyWeekSlider-button-next swiper-button-next"></div> -->
+
+
                   </div>
+                    <!-- <span> Слайдер </span> -->
+                </div>
               </div>
               <!-- ==========swiper slide3===== -->
               <div class="swiper-slide">
@@ -159,14 +170,13 @@
               </div>
             </div>
           </div>
-        </div>
-        
-        <div class="swiper-pagination"></div>
+          
+         <div class="swiper-pagination"></div>
 
           <!-- /.swiper-wrapper -->
 
           <!-- /.slider -->
-
+      </div>
     </div>
         <div class="down-arrow">
           <img src="images/Icon-down.png" alt="Icon-down" />
