@@ -95,13 +95,105 @@ body {
 .everyWeek__marker {
   color: #F2CF17;
 }
-.everyWeek__slider {
-  border: 3px solid red;
+.everyWeek-slider {
+  height: 100px;
   color: #fff;
 }
-.everyWeek .internal-slider {
-  width: 600px;
-  height: 300px;
+.everyWeek-slider__slide {
+  height: 450px;
+  width: 100px;
+}
+
+.everyWeekSlider {
+  display: block;
+}
+.everyWeekSlider-button-prev {
+  color: #fff;
+}
+.everyWeekSlider-button-next {
+  color: #fff;
+}
+
+.house {
+  width: 30%;
+  padding: 24px;
+  border-radius: 24px;
+}
+.house-forest {
+  background-color: #F2CF17;
+  color: #000;
+}
+.house-mans {
+  background-color: #fff;
+  color: #000;
+}
+.house-ger {
+  color: #000;
+  background-color: #fff;
+}
+.house-suf {
+  background-color: #fff;
+  color: #000;
+}
+.house-two {
+  color: #000;
+  background-color: #F2CF17;
+}
+.house-top {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+.house__name {
+  font-family: Roboto Flex;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0px 0px 6px 0px;
+  margin: 0;
+}
+.house__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.house__price {
+  padding: 4px 0;
+}
+
+.stock {
+  color: #000;
+}
+.stock-forest {
+  background-color: #fff;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 37px;
+}
+.stock-mans {
+  background-color: #00543B;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 37px;
+}
+.stock-ger {
+  background-color: #F2CF17;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 37px;
+}
+.stock-suf {
+  background-color: #F2CF17;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 37px;
+}
+.stock-two {
+  background-color: #00543B;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 37px;
 }
 
 .family {
